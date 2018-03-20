@@ -5,4 +5,4 @@
  * @author hi
  *
  */
-package algos.sorting;
+package me.practice.algo.chess;

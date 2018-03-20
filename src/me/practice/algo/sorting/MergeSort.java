@@ -1,4 +1,4 @@
-package algos.sorting;
+package me.practice.algo.sorting;
 
 import java.util.ArrayList;
 import java.util.List;
