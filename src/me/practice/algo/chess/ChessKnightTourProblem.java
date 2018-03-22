@@ -38,9 +38,9 @@ public class ChessKnightTourProblem {
 			int nextX = x + xMoves[i];
 			int nextY = y + yMoves[i];
 
-			if (isValidMove(nextX, nextY)) {
+			if (this.isValidMove(nextX, nextY)) {
 				this.chessBoard[nextX][nextY] = stepCount;
-				if (solveProblem(stepCount + 1, nextX, nextY))
+				if (this.solveProblem(stepCount + 1, nextX, nextY))
 					return true;
 				this.chessBoard[nextX][nextY] = Integer.MIN_VALUE;
 			}
